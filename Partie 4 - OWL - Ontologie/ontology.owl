@@ -1,0 +1,747 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/anthony.malerba/ontologies/2020/4/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/anthony.malerba/ontologies/2020/4/untitled-ontology-12">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benevole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#domaine_viticole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#employe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#societe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vigneron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ville"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_un"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_membre_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fait_partie_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#habite_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_situe_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#travaille_pour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#annee_creation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#annees_experience"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#annees_service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nb_membres"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#npa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prenom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#raison_sociale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#surface"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#claude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#france"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gwen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hubert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#le_landeron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neuveville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stand_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stand_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#street-hockey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suisse"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#association"/>
+        <Class IRI="#societe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benevole"/>
+        <Class IRI="#personne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#domaine_viticole"/>
+        <Class IRI="#societe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#employe"/>
+        <Class IRI="#personne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vigneron"/>
+        <Class IRI="#personne"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#employe"/>
+        <NamedIndividual IRI="#anita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#domaine_viticole"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vigneron"/>
+        <NamedIndividual IRI="#claude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#benevole"/>
+        <NamedIndividual IRI="#ed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pays"/>
+        <NamedIndividual IRI="#france"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#benevole"/>
+        <NamedIndividual IRI="#fred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#employe"/>
+        <NamedIndividual IRI="#gwen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vigneron"/>
+        <NamedIndividual IRI="#hubert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ville"/>
+        <NamedIndividual IRI="#le_landeron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ville"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#stand"/>
+        <NamedIndividual IRI="#stand_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#stand"/>
+        <NamedIndividual IRI="#stand_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#association"/>
+        <NamedIndividual IRI="#street-hockey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pays"/>
+        <NamedIndividual IRI="#suisse"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#anita"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <NamedIndividual IRI="#anita"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_un"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+        <NamedIndividual IRI="#stand_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_situe_a"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#claude"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <NamedIndividual IRI="#claude"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_membre_de"/>
+        <NamedIndividual IRI="#ed"/>
+        <NamedIndividual IRI="#street-hockey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#ed"/>
+        <NamedIndividual IRI="#le_landeron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_membre_de"/>
+        <NamedIndividual IRI="#fred"/>
+        <NamedIndividual IRI="#street-hockey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#fred"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#gwen"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <NamedIndividual IRI="#gwen"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#habite_a"/>
+        <NamedIndividual IRI="#hubert"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <NamedIndividual IRI="#hubert"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+        <NamedIndividual IRI="#le_landeron"/>
+        <NamedIndividual IRI="#suisse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+        <NamedIndividual IRI="#neuveville"/>
+        <NamedIndividual IRI="#suisse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_un"/>
+        <NamedIndividual IRI="#street-hockey"/>
+        <NamedIndividual IRI="#stand_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_situe_a"/>
+        <NamedIndividual IRI="#street-hockey"/>
+        <NamedIndividual IRI="#neuveville"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annees_service"/>
+        <NamedIndividual IRI="#anita"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titre"/>
+        <NamedIndividual IRI="#anita"/>
+        <Literal>Vendeuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annee_creation"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1834-01-01T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surface"/>
+        <NamedIndividual IRI="#cave_de_berne"/>
+        <Literal>12000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#claude"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annees_experience"/>
+        <NamedIndividual IRI="#claude"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1983-01-01T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mail"/>
+        <NamedIndividual IRI="#ed"/>
+        <Literal>ed@street-hockey.ch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#role"/>
+        <NamedIndividual IRI="#ed"/>
+        <Literal>Caissier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code"/>
+        <NamedIndividual IRI="#france"/>
+        <Literal>FR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#france"/>
+        <Literal>France</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mail"/>
+        <NamedIndividual IRI="#fred"/>
+        <Literal>fred@street-hockey.ch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#role"/>
+        <NamedIndividual IRI="#fred"/>
+        <Literal>Graphiste</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annees_service"/>
+        <NamedIndividual IRI="#gwen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titre"/>
+        <NamedIndividual IRI="#gwen"/>
+        <Literal>Secrétaire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#hubert"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annees_experience"/>
+        <NamedIndividual IRI="#hubert"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1979-01-01T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#le_landeron"/>
+        <Literal>Landeron</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#npa"/>
+        <NamedIndividual IRI="#le_landeron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2525</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#neuveville"/>
+        <Literal>Neuveville</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#npa"/>
+        <NamedIndividual IRI="#neuveville"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2520</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix"/>
+        <NamedIndividual IRI="#stand_1"/>
+        <Literal>700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surface"/>
+        <NamedIndividual IRI="#stand_1"/>
+        <Literal>35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prix"/>
+        <NamedIndividual IRI="#stand_2"/>
+        <Literal>560</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surface"/>
+        <NamedIndividual IRI="#stand_2"/>
+        <Literal>28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annee_creation"/>
+        <NamedIndividual IRI="#street-hockey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-01T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nb_membres"/>
+        <NamedIndividual IRI="#street-hockey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code"/>
+        <NamedIndividual IRI="#suisse"/>
+        <Literal>CH</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#suisse"/>
+        <Literal>Suisse</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#a_un"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#est_membre_de"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#fait_partie_de"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#habite_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#se_situe_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#a_un"/>
+        <Class IRI="#societe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_membre_de"/>
+        <Class IRI="#benevole"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fait_partie_de"/>
+        <Class IRI="#personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#habite_a"/>
+        <Class IRI="#personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_situe_a"/>
+        <Class IRI="#societe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+        <Class IRI="#ville"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <Class IRI="#employe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#a_un"/>
+        <Class IRI="#stand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_membre_de"/>
+        <Class IRI="#association"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fait_partie_de"/>
+        <Class IRI="#societe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#habite_a"/>
+        <Class IRI="#ville"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#se_situe_a"/>
+        <Class IRI="#ville"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#se_trouve_dans"/>
+        <Class IRI="#pays"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#travaille_pour"/>
+        <Class IRI="#domaine_viticole"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#annee_creation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#annees_experience"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#annees_service"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#code"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#mail"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nb_membres"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nom"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#npa"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#prenom"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#prix"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#raison_sociale"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#role"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#surface"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#titre"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#vigneron"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annee_creation"/>
+        <Class IRI="#association"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annee_creation"/>
+        <Class IRI="#domaine_viticole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annees_experience"/>
+        <Class IRI="#vigneron"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annees_service"/>
+        <Class IRI="#employe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#code"/>
+        <Class IRI="#pays"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mail"/>
+        <Class IRI="#benevole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nb_membres"/>
+        <Class IRI="#association"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#pays"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#societe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#ville"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#npa"/>
+        <Class IRI="#ville"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prenom"/>
+        <Class IRI="#personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prix"/>
+        <Class IRI="#stand"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#raison_sociale"/>
+        <Class IRI="#societe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#role"/>
+        <Class IRI="#benevole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#surface"/>
+        <Class IRI="#domaine_viticole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#surface"/>
+        <Class IRI="#stand"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titre"/>
+        <Class IRI="#employe"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#annee_creation"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#annees_experience"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#annees_service"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nb_membres"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#npa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prenom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prix"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#raison_sociale"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#role"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#surface"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
